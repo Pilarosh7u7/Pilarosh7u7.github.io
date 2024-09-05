@@ -1,0 +1,96 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #F4F4F4;
+   margin: 0;
+   padding: 0;
+}
+
+
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 20px;
+   background-color: #FDFD96;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+   max-width: 100%;
+   height: auto;
+}
+
+.nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.nav ul li {
+   margin: 0 15px;
+}
+
+.nav ul li a {
+   text-decoration: none;
+   color: #333;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+   color: #B76E79;
+}
+
+
+.fotocreadora {
+   text-align: center;
+   padding: 60px 20px;
+   background-color: #B76E79;
+   color: #ffffff;
+}
+
+.hero h1 {
+   font-size: 2.5rem;
+   margin: 0;
+}
+
+
+.carousel-item img {
+   max-height: 500px;
+   object-fit: cover;
+}
+
+
+.form-container {
+   background-color: #FDFD96;
+   border-radius: 8px;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+}
+
+
+footer {
+   background-color: #B76E79;
+   color: #ffffff;
+   text-align: center;
+   padding: 20px;
+}
+
+footer a {
+   color: #fd009c;
+   text-decoration: none;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
+.Copyright {
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 20px;
+   background-color: #B76E79;
+   box-shadow: 0 2px 5px rgb(0, 0, 0);
+
+}
